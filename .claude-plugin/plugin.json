@@ -1,0 +1,18 @@
+{
+  "name": "loop-engineer",
+  "version": "0.1.0",
+  "description": "Skills for loop engineering: designing self-prompting agent loops (automation, worktrees, memory, subagents, connectors) and preparing the harness they run inside.",
+  "author": {
+    "name": "loop_engineer"
+  },
+  "homepage": "https://github.com/dlmastery/loop_engineer",
+  "license": "MIT",
+  "keywords": [
+    "loop-engineering",
+    "agent-harness",
+    "claude-code",
+    "automation",
+    "subagents",
+    "skills"
+  ]
+}

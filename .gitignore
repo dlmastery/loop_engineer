@@ -1,0 +1,17 @@
+# Loop runtime artifacts (the loop writes these; don't commit machine-local state)
+.loop/state.local.md
+.loop/runs/
+*.loop.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Node / tooling (if a loop scaffolds these)
+node_modules/
+dist/
+.env
+.env.*
