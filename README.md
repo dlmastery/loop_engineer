@@ -40,10 +40,33 @@ The floor the loop stands on — the environment a single agent runs inside:
 | `harness-verification` | "Done" is a command that returns pass/fail |
 | `harness-guardrails` | Cost, blast radius, and permissions are bounded |
 
-### Templates (`templates/`) — the loop, ready to copy
+### The no-code track (`nocode-harness` meta-skill)
+Build, configure, and iterate a harness **without writing or editing code** —
+via structured enquiry, an editable natural-language spec, visual canvases, and
+browser generators. Same non-negotiables as the code track (independent verifier
++ cost ceiling); reached by declarative and visual means.
+
+| Skill | No-code job |
+|-------|-------------|
+| **`nocode-harness`** | Composite: run the whole no-code path, enquiry → spec → realize → iterate |
+| `harness-enquiry` | AI co-designer Q&A that turns goals into an importable spec |
+| `harness-component-taxonomy` | The part list that makes a spec complete |
+| `nlah-authoring` | Write the harness as a Natural-Language Agent Harness doc |
+| `loop-pattern-spec` | Pin each loop: type, trigger, body, exit, budget |
+| `visual-harness-canvas` | Realize it as nodes + edges in Langflow / Dify |
+| `harness-generator-studio` | Scaffold a ready harness in the MetaHarness browser studio |
+
+Grounded in real tools/research: NLAH (arXiv:2603.25723), MetaHarness
+(`ruvnet/agent-harness-generator`), Langflow, Dify, and the harness-engineering
+literature (`ai-boost/awesome-harness-engineering`). The IHR runtime from the
+NLAH paper is research — the NLAH doc is treated as a portable source of truth
+you feed into a visual tool or generator, not an assumed shipping runtime.
+
+### Templates (`templates/`) — ready to copy
 - `PROGRESS.md` — the state-file (memory) schema.
 - `triage-skill/SKILL.md` — discovery/triage pass an automation calls.
 - `agents/implementer.md`, `agents/verifier.md` — the maker/checker pair.
+- `HARNESS.nlah.md` — a fillable Natural-Language Agent Harness spec (no-code).
 
 ### Example (`examples/`)
 - `nightly-triage-loop.md` — the whole thing assembled end-to-end.

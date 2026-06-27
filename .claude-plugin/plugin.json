@@ -1,7 +1,7 @@
 {
   "name": "loop-engineer",
   "version": "0.1.0",
-  "description": "Skills for loop engineering: designing self-prompting agent loops (automation, worktrees, memory, subagents, connectors) and preparing the harness they run inside.",
+  "description": "Skills for loop engineering: designing self-prompting agent loops (automation, worktrees, memory, subagents, connectors), preparing the harness they run inside, and a no-code track for building harnesses via enquiry, NLAH specs, visual canvases, and generators.",
   "author": {
     "name": "loop_engineer"
   },
@@ -13,6 +13,11 @@
     "claude-code",
     "automation",
     "subagents",
-    "skills"
+    "skills",
+    "no-code",
+    "nlah",
+    "langflow",
+    "dify",
+    "metaharness"
   ]
 }
